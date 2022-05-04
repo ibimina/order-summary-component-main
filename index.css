@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Red Hat Display',
+    sans-serif;
+}
+
+
+main{
+    max-width: 310px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 2rem;
+}
+.hero{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+h4{
+    margin-bottom: .5rem;
+    font-weight: 700;
+}
+
+h4,h5{
+    margin: 0;
+}
+h5{
+color: hsl(224, 23%, 55%);
+}
+p{
+text-align: center;
+color: hsl(224, 23%, 55%);
+font-weight: 500;
+padding: 1.4rem;
+}
+h4{
+color: hsl(223, 47%, 23%);
+}
+a{
+    color:hsl(245, 75%, 52%);
+    margin-left: 1rem;
+}
+a:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    text-decoration: none;
+}
+.cancel:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
+.cancel{
+    margin: 0;
+    font-weight: 700;
+}
+section{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    margin: 1.5rem;
+    padding: .9rem;
+    border-radius: 10px;
+}
+.music{
+    height: 50px;
+}
+.button{
+display: grid;
+justify-content: center;
+}
+.pay{
+    padding-inline:4.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+   text-align: center;
+    border-radius: 10px;
+    border: 0;
+    color: hsl(225, 100%, 94%);
+    background-color: hsl(245, 75%, 52%);
+    box-shadow:0px 20px 20px 0px hsl(225, 100%, 94%);
+}
+.pay:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.footer{
+    padding: 0;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width:45em) {
+    body{
+     background-image: url(images/pattern-background-desktop.svg);   
+    }
+    main{
+        max-width: 410px;
+    }
+    .pay {
+        padding-inline: 7rem;
+        padding-top: .9rem;
+        padding-bottom:.9rem;
+      
+    }
+  
+}
